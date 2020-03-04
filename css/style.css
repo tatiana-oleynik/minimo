@@ -132,3 +132,19 @@ header .nav-item a:hover::after {
 .load-more span{
 	display: none;
 }
+
+footer {
+	background-color: #f0f0f0;
+	padding: 40px 0;
+	color: #000;
+}
+
+.footer-left a {
+	color: #000;
+	margin-right: 20px;
+}
+
+.footer-right a {
+	color: #626262;
+	margin-left: 20px;
+}
