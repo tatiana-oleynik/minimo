@@ -148,3 +148,24 @@ footer {
 	color: #626262;
 	margin-left: 20px;
 }
+
+@media only screen and (max-width : 767px) {
+	.grid-posts {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.grid-posts .card {
+		margin-bottom: 50px;
+	}
+
+	.grid-posts .card-img-top {
+		max-height: 100%;
+	}
+}
+
+@media only screen and (max-width : 575px) {
+	.footer-left {
+		margin-bottom: 10px;
+	}
+}
